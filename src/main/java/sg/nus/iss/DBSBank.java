@@ -7,7 +7,7 @@ public class DBSBank extends Bank{
     }
 
     @Override
-    public void calculateHousingLoanEMI(String str){
+    public void calculateHousingLoanEMI(){
 
         super.calculateHousingLoanEMI(); ///to call super class method
         System.out.println("In DBS Class : calculateHousingLoanEMI");
