@@ -9,6 +9,7 @@ public class Bank {
     private List<String> branches;
 
     public Bank() {
+        System.out.println("in super class constructor");
     }
     public Bank(String bankName, String location, List<String> branches) {
         this.bankName = bankName;

@@ -1,7 +1,13 @@
 package sg.nus.iss;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import sg.nus.iss.interfacepckg.Car;
+import sg.nus.iss.interfacepckg.Startable;
+import sg.nus.iss.interfacepckg.WashingMachine;
+
 
 /**
  * Hello world!
@@ -116,16 +122,41 @@ public class App
 */
 
      //   Bank bank1 = new Bank();
-        Bank bank = new DBSBank();
+    //    Bank bank = new DBSBank();
 
        // DBSBank dbsBank = new Bank();
 
-        if(bank instanceof DBSBank){
+       
+       //     bank.calculateHousingLoanEMI();
+     
 
-            bank.calculateHousingLoanEMI();
-        }
+       // System.out.println(bank instanceof DBSBank);
+/* 
 
-        System.out.println(bank instanceof DBSBank);
+       OverloadingExample objExample = new OverloadingExample();
+       
+        objExample.overLoadingMethod1(5);
+*/
+
+      //  AccessModifiersExample obj =  new AccessModifiersExample();
+
+        //obj.testMethod();
+
+        Startable objCar = new Car();
+
+        Startable objWM = new WashingMachine();
+
+        objCar.start();
+        objCar.stop();
+
+        objWM.start();
+        objWM.stop();
+
+
+
+        List<Integer> strList = new ArrayList<Integer>();
+        //strList.add("test string");
+        strList.add(1);
     }
 
    
