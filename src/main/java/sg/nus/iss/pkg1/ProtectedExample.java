@@ -1,4 +1,4 @@
-package sg.nus.iss.controller;
+package sg.nus.iss.pkg1;
 
 public class ProtectedExample {
 

@@ -1,4 +1,4 @@
-package sg.nus.iss.interfacepckg;
+package sg.nus.iss.pkg2;
 
 public class Car implements Startable{
 
